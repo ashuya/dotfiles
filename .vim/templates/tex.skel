@@ -1,0 +1,21 @@
+\documentclass[a4paper,14pt]{article}
+
+\usepackage{cmap} % search in pdf
+\usepackage[T2A]{fontenc} 
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
+\usepackage{indentfirst} % tab in first paragraph
+\usepackage{xcolor}
+
+\author{Михаил Тимофеев}
+\title{}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{}
+
+\end{document}
+
