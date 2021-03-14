@@ -26,6 +26,6 @@ source $ZSH/oh-my-zsh.sh
 
 export EDITOR='vim'
 
-export VIRTUAL_ENV_DISABLE_PROMPT=
+export VIRTUAL_ENV_DISABLE_PROMPT=0
 
 alias dotfiles='git --git-dir=$HOME/.cfg --work-tree=$HOME'
