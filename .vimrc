@@ -9,7 +9,6 @@ set ruler
 set relativenumber
 set number
 set smarttab
-set smartindent
 set shiftwidth=4
 set tabstop=4
 set softtabstop=0
