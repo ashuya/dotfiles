@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH="/home/ashuya/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 
 ZSH_THEME="fino"
 
@@ -26,6 +26,6 @@ source $ZSH/oh-my-zsh.sh
 
 export EDITOR='vim'
 
-export VIRTUAL_ENV_DISABLE_PROMPT=
+export VIRTUAL_ENV_DISABLE_PROMPT=0
 
 alias dotfiles='git --git-dir=$HOME/.cfg --work-tree=$HOME'
