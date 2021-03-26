@@ -37,3 +37,4 @@ autocmd BufNewFile *.tex 0r ~/.vim/templates/tex.skel
 autocmd BufNewFile *.py 0r ~/.vim/templates/py.skel
 
 autocmd BufRead,BufNewFile *.tex set colorcolumn=0
+autocmd BufRead,BufNewFile *.jinja2 set syntax=html
