@@ -9,11 +9,10 @@ set ruler
 set relativenumber
 set number
 set smarttab
-set smartindent
 set shiftwidth=4
 set tabstop=4
 set softtabstop=0
-set noexpandtab
+set expandtab
 set nowrapscan
 set encoding=utf-8
 set colorcolumn=80
@@ -38,3 +37,4 @@ autocmd BufNewFile *.tex 0r ~/.vim/templates/tex.skel
 autocmd BufNewFile *.py 0r ~/.vim/templates/py.skel
 
 autocmd BufRead,BufNewFile *.tex set colorcolumn=0
+autocmd BufRead,BufNewFile *.jinja2 set syntax=html
