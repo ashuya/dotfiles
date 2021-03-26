@@ -9,11 +9,10 @@ set ruler
 set relativenumber
 set number
 set smarttab
-set smartindent
 set shiftwidth=4
 set tabstop=4
 set softtabstop=0
-set noexpandtab
+set expandtab
 set nowrapscan
 set encoding=utf-8
 set colorcolumn=80

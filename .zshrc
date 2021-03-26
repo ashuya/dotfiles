@@ -17,10 +17,9 @@ HIST_STAMPS="mm/dd/yyyy"
 
 plugins=(
 	git
-	virtualenv
 	)
 
-source $ZSH/oh-my-zsh.sh
+source $ZSH/oh-my-zsh.sh 
 
 # User configuration
 
