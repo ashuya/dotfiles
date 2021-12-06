@@ -1,3 +1,5 @@
 [user]
 	email = despersonal45@gmail.com
 	name = ashuya
+[core]
+	editor = vim
