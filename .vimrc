@@ -17,7 +17,7 @@ set expandtab
 set nowrapscan
 set encoding=utf-8
 set colorcolumn=80
-set scrolloff=0
+set scrolloff=10
 set hlsearch
 set incsearch
 set splitbelow splitright
