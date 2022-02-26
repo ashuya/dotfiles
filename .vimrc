@@ -2,7 +2,6 @@ filetype on
 syntax on
 filetype plugin indent on
 execute pathogen#infect()
-
 set nocompatible
 set wildmenu
 set showcmd
@@ -31,7 +30,6 @@ let &t_EI = "\e[2 q"
 packadd! matchit
 nnoremap <C-n> :NERDTreeToggle<CR>
 
-
 " undo breakpoints
 inoremap , ,<c-g>u
 inoremap { {<c-g>u
@@ -40,16 +38,24 @@ inoremap . .<c-g>u
 inoremap ; ;<c-g>u
 inoremap : :<c-g>u
 
-nnoremap k gk
-nnoremap j gj
+let @p = 'I{% A %}€ýa' 
+
+
 nnoremap Y y$
-autocmd FileType python nnoremap gb :w<bar>!python3 %<CR>
+
+autocmd FileType python nnoremap gc :w<bar>!xclip -sel c < %<CR><CR>
+
+autocmd FileType python nnoremap gb :w<bar>!clear;python3 %<CR>
+autocmd FileType python nnoremap gB :w<bar>!clear;python3 -i %<CR>
+autocmd FileType haskell nnoremap gb :w<bar>!clear;ghc --make % && %:p:r<CR>
+autocmd FileType haskell nnoremap gB :w<bar>!clear;ghci %<CR>
+autocmd FileType tex nnoremap gb :w<bar>!pdflatex %<CR>
 
 
 colorscheme ron 
 highlight ColorColumn ctermbg=darkgreen ctermfg=black
 highlight Normal ctermbg=black
-highlight Search ctermbg=green ctermfg=white
+highlight Search ctermbg=green ctermfg=black
 
 "autocmd BufNewFile *.html 0r ~/.vim/templates/html.skel
 autocmd BufNewFile *.c 0r ~/.vim/templates/c.skel

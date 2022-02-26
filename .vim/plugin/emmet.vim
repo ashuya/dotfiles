@@ -91,7 +91,7 @@ if !exists('g:emmet_curl_command')
 endif
 
 if !exists('g:user_emmet_leader_key')
-  let g:user_emmet_leader_key = '<c-y>'
+  let g:user_emmet_leader_key = '<c-e>'
 endif
 
 function! s:install_plugin(mode, buffer)
